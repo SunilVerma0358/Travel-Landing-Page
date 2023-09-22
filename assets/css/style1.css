@@ -24,6 +24,14 @@
     line-height: 12px;
 }
 
+.lh-18 {
+    line-height: 18px;
+}
+
+.lh-34 {
+    line-height: 34px;
+}
+
 .lh-56 {
     line-height: 56px;
 }
@@ -40,16 +48,16 @@
     background-color: #FAF8ED;
 }
 
+.mt-40 {
+    margin-top: 40px;
+}
+
 .mw-500 {
     max-width: 500px;
 }
 
 .mw-to-card-500 {
     max-width: 320px;
-}
-
-.color_nav {
-    color: #2E476B;
 }
 
 .lh-100 {
@@ -67,6 +75,14 @@
 
 .lh-17 {
     line-height: 17px;
+}
+
+.lh-40 {
+    line-height: 40px;
+}
+
+.ls-06 {
+    letter-spacing: 0.06px;
 }
 
 .nav_button {
@@ -175,6 +191,10 @@
     transition: all 0.3s linear;
 }
 
+.bg-light-yellow {
+    background-color: var(--color-light-yellow);
+}
+
 .category-card:hover .visit {
     opacity: 1;
 }
@@ -239,6 +259,76 @@
     display: none;
 }
 
+.newsletter-card {
+    padding: 75px 10px;
+    border-radius: 30px;
+    background-image: url(../image/Intersect.png);
+    background-color: var(--color-yellow);
+}
+
+.signup-space {
+    padding: 10px 12px 10px 26px;
+    max-width: 450px;
+    border-radius: 12px;
+    background: #FFF;
+}
+
+.newsletter-card [type=mail] {
+    outline: 0 !important;
+}
+
+.airplane {
+    padding: 10.25px 12.08px;
+    border-radius: 12px;
+    background-color: var(--color-light-orange);
+    filter: drop-shadow(0px 5px 14px rgba(247, 103, 67, 0.25));
+    transition: all 0.3s linear;
+    border: 1px solid transparent;
+}
+
+.mw-141 {
+    max-width: 141px;
+}
+
+.airplane svg path {
+    transition: all 0.3s linear;
+}
+
+.airplane:hover {
+    background-color: var(--color-white);
+    border: 1px solid var(--color-light-orange);
+}
+
+.airplane:hover svg path {
+    fill: var(--color-light-orange);
+}
+
+.social-icon svg path {
+    transition: all 0.3s linear;
+}
+
+.social-icon:hover svg path {
+    fill: var(--color-light-orange);
+
+}
+
+.footer-py-79 {
+    padding-top: 79px;
+    padding-bottom: 79px;
+}
+
+.mb-61 {
+    margin-bottom: 61px;
+}
+
+.social-icon svg circle {
+    transition: all 0.3s linear;
+}
+
+.social-icon:hover svg circle {
+    stroke: var(--color-light-orange);
+}
+
 @media (max-width:991.5px) {
     label[id="nav"] {
         width: 30px;
@@ -272,7 +362,7 @@
         width: 100%;
         max-width: 400px;
         height: 100%;
-        background-color: var(--color-yellow);
+        background-color: var(--color-light-yellow);
         position: fixed;
         top: 0;
         z-index: 3;
