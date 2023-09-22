@@ -8,13 +8,16 @@
     <link rel="stylesheet" href="./assets/css/style1.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body class="bg-bodys bg-color-custum">
     <div class="over-layer"></div>
     <!-- header -->
-    <header>
+    <header class="pb-5 mb-5">
         <nav class="py-33">
             <div class="container">
                 <div class="d-flex justify-content-between">
@@ -65,11 +68,13 @@
                     <div class="col-lg-6 pt-5 mt-4">
                         <p class="mb-0 fs-13xl fw-bold ff_secondary color_main lh-86">Discover the Best Lovely Places
                         </p>
-                        <p class="mb-0 fs-xl fw-normal ff_main lh-28 color_primery pt-4 mw-500">Plan and book your perfect trip
+                        <p class="mb-0 fs-xl fw-normal ff_main lh-28 color_primery pt-4 mw-500">Plan and book your
+                            perfect trip
                             with expert advice,
                             travel tips, destination information and inspiration from us.
                         </p>
-                        <div class="date-to-party d-flex flex-column flex-sm-row gap-5 gap-sm-0 align-items-center justify-content-between mw-to-card-500 mx-aut mx-lg-0">
+                        <div
+                            class="date-to-party d-flex flex-column flex-sm-row gap-5 gap-sm-0 align-items-center justify-content-between mw-to-card-500 mx-aut mx-lg-0">
                             <div class="where-line position-relative">
                                 <p class="mb-0 fs-xl fw-medium lh-17 ff_main color_main">Where</p>
                                 <div class="d-flex align-items-center gap-4 pt-2">
@@ -88,7 +93,8 @@
                             <div>
                                 <p class="mb-0 fs-xl fw-medium lh-17 ff_main color_main">Date</p>
                                 <div class="d-flex align-items-center gap-4 pt-2">
-                                    <p class="mb-0 fs-sm ff_main fw-normal lh-12 color_light_secandary d-flex">09th March,2021
+                                    <p class="mb-0 fs-sm ff_main fw-normal lh-12 color_light_secandary d-flex">09th
+                                        March,2021
                                     </p>
                                     <span class="d-flex align-items-center"><svg width="13" height="13"
                                             viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -105,13 +111,15 @@
                                     </span>
                                 </div>
                             </div>
-                            <span class="bg-search"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M12.692 21.839C17.7428 21.839 21.8372 17.7446 21.8372 12.6939C21.8372 7.64314 17.7428 3.54871 12.692 3.54871C7.6413 3.54871 3.54688 7.64314 3.54688 12.6939C3.54688 17.7446 7.6413 21.839 12.692 21.839Z"
-                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M19.1593 19.1609L24.4504 24.452" stroke="white" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
+                            <span class="bg-search"><svg width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.692 21.839C17.7428 21.839 21.8372 17.7446 21.8372 12.6939C21.8372 7.64314 17.7428 3.54871 12.692 3.54871C7.6413 3.54871 3.54688 7.64314 3.54688 12.6939C3.54688 17.7446 7.6413 21.839 12.692 21.839Z"
+                                        stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M19.1593 19.1609L24.4504 24.452" stroke="white" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
                             </span>
                         </div>
                     </div>
@@ -122,10 +130,176 @@
             </div>
         </div>
     </header>
+    <!-- Categories visit -->
+    <section class="pt-5 mt-5">
+        <div class="container pt-1">
+            <div class="d-flex justify-content-between">
+                <div>
+                    <h2 class="mb-0 pb-4 fs-12xl fw-semibold ff_main lh-56 color_main">Categories</h2>
+                    <p class="fs-lg fw-normal color_primery ff_main lh-26 mx-370">Here are lots of interesting
+                        destinations
+                        to visit, but don’t be confused—they’re already grouped by category.</p>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                    <button class="preview pre1 d-none d-sm-block"><svg width="8" height="14" viewBox="0 0 8 14"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 13L1 7L7 1" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <button class="preview next1 d-none d-sm-block"><svg width="8" height="14" viewBox="0 0 8 14"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 13L7 7L1 1" stroke="#2D3134" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="pt-5 mt-2 categories-slide">
+                <div class="category-card mr-30">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/image/beach.png" alt="beach" class="rounded-85 w-100">
+                        <p class="mb-0 fs-lg fw-semibold ff_main color_white visit">visite</p>
+                    </div>
+                    <p class="text-center fs-7xl fw-medium lh-26 color_main ff_main pt-3">Beach</p>
+                </div>
+                <div class="category-card mr-30">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/image/desert.png" alt="desert.png" class="rounded-85 w-100">
+                        <p class="mb-0 fs-lg fw-semibold ff_main color_white visit">visite</p>
+                    </div>
+                    <p class="text-center fs-7xl fw-medium lh-26 color_main ff_main pt-3">Desert</p>
+                </div>
+                <div class="category-card mr-30">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/image/mountain.png" alt="mountain.png" class="rounded-85 w-100">
+                        <p class="mb-0 fs-lg fw-semibold ff_main color_white visit">visite</p>
+                    </div>
+                    <p class="text-center fs-7xl fw-medium lh-26 color_main ff_main pt-3">Mountain</p>
+                </div>
+                <div class="category-card mr-30">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/image/temple.png" alt="temple" class="rounded-85 w-100">
+                        <p class="mb-0 fs-lg fw-semibold ff_main color_white visit">visite</p>
+                    </div>
+                    <p class="text-center fs-7xl fw-medium lh-26 color_main ff_main pt-3">Temple</p>
+                </div>
+                <div class="category-card mr-30">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/image/tower.png" alt="tower.png" class="rounded-85 w-100">
+                        <p class="mb-0 fs-lg fw-semibold ff_main color_white visit">visite</p>
+                    </div>
+                    <p class="text-center fs-7xl fw-medium lh-26 color_main ff_main pt-3">Tower</p>
+                </div>
+                <div class="category-card mr-30">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/image/pyramid.png" alt="pyramid" class="rounded-85 w-100">
+                        <p class="mb-0 fs-lg fw-semibold ff_main color_white visit">visite</p>
+                    </div>
+                    <p class="text-center fs-7xl fw-medium lh-26 color_main ff_main pt-3">Pyramid</p>
+                </div>
+                <!-- extra for slide -->
+                <div class="category-card mr-30">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/image/desert.png" alt="desert.png" class="rounded-85 w-100">
+                        <p class="mb-0 fs-lg fw-semibold ff_main color_white visit">visite</p>
+                    </div>
+                    <p class="text-center fs-7xl fw-medium lh-26 color_main ff_main pt-3">Desert</p>
+                </div>
+                <div class="category-card mr-30">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/image/mountain.png" alt="mountain.png" class="rounded-85 w-100">
+                        <p class="mb-0 fs-lg fw-semibold ff_main color_white visit">visite</p>
+                    </div>
+                    <p class="text-center fs-7xl fw-medium lh-26 color_main ff_main pt-3">Mountain</p>
+                </div>
+                <div class="category-card mr-30">
+                    <div class="position-relative overflow-hidden">
+                        <img src="./assets/image/pyramid.png" alt="pyramid.png" class="rounded-85 w-100">
+                        <p class="mb-0 fs-lg fw-semibold ff_main color_white visit">visite</p>
+                    </div>
+                    <p class="text-center fs-7xl fw-medium lh-26 color_main ff_main pt-3">Pyramid</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sign up to our newsletter -->
+    <section>
+        <div class="container">
+            <div class="newsletter-card">
+                
+            </div>
+        </div>
+    </section>
+    <!-- sripts -->
+    <script src="./assets/js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
         </script>
-    <script src="./assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.categories-slide').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            prevArrow: ".pre1",
+            nextArrow: ".next1",
+            slidesToShow: 6,
+            slidesToScroll: 3,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        dots: false,
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                },
+                {
+                    breakpoint: 575.05,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        cssEase: 'linear',
+                        autoplay: true,
+                        autoplaySpeed: 1,
+                        speed: 6000,
+                        waitForAnimate: true,
+                    }
+                },
+                {
+                    breakpoint: 425.05,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 2,
+                        arrows: false,
+                        cssEase: 'linear',
+                        autoplay: true,
+                        autoplaySpeed: 1,
+                        speed: 6000,
+                        waitForAnimate: true,
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });</script>
 </body>
 
 </html>
