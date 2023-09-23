@@ -301,6 +301,7 @@
         
         .nav-link {
             color: var(--color-main) !important;
+            font-size: var(--fs-md) !important;
             border: 2px solid var(--color-main) !important;
             transition: all linear 0.3s !important;
             border-radius: 20px !important;
@@ -388,7 +389,7 @@
             content: '';
             position: absolute;
             left: 0;
-            top: -7px;
+            top: -12px;
             width: 67px;
             height: 8px;
             border-radius: 4px;
