@@ -215,7 +215,7 @@
         .line_height {
             line-height: 26px;
         }
-        /* section_slider */
+        /* ----section_slider----*/
         
         .arrow_left {
             position: static;
@@ -300,10 +300,10 @@
         }
         
         .nav-link {
-            font-family: var(--ff-primery);
+            font-family: var(--ff-primery) !important;
             color: var(--color-main) !important;
             font-size: var(--fs-md) !important;
-            border: 2px solid var(--color-main) !important;
+            border: 1px solid var(--color-main) !important;
             transition: all linear 0.3s !important;
             border-radius: 20px !important;
         }
