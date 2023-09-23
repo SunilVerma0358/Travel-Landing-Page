@@ -300,6 +300,7 @@
         }
         
         .nav-link {
+            font-family: var(--ff-primery);
             color: var(--color-main) !important;
             font-size: var(--fs-md) !important;
             border: 2px solid var(--color-main) !important;
