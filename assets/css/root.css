@@ -2,7 +2,7 @@
 :root {
     /*---font-size---- */
     --fs-sm: 12px;
-    --fs-md: 14px;
+    --fs-md: 10px;
     --fs-lg: 16px;
     --fs-xl: 18px;
     --fs-2xl: 19px;
@@ -15,7 +15,7 @@
     --fs-9xl: 30px;
     --fs-10xl: 40px;
     --fs-11xl: 46px;
-    --fs-12xl: 36px;
+    --fs-12xl: 25px;
     --fs-13xl: 70px;
     /* --------color----- */
     --color-main: #2D3134;
